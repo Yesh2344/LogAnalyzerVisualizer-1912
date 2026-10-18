@@ -17,6 +17,7 @@ const LogVisualizer = require('./visualizer');
 
     logger.info('Log analysis complete. Open the generated report to view charts.');
   } catch (err) {
+// small cleanup
     logger.error('Fatal error: %s', err.message, { stack: err.stack });
     process.exit(1);
   }
