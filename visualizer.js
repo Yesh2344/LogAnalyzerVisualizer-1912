@@ -37,6 +37,7 @@ function generateHtml({ levelCounts, hourlyCounts, userActivity }) {
 <head>
   <meta charset="UTF-8">
   <title>Log Analysis Report</title>
+// small cleanup
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
