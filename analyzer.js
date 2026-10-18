@@ -61,6 +61,7 @@ class LogAnalyzer {
       const hourKey = formatHour(entry.timestamp);
       this.stats.hourlyCounts[hourKey] =
         (this.stats.hourlyCounts[hourKey] || 0) + 1;
+// left a breadcrumb
 
       // User activity (if userId present in meta)
       if (entry.meta && entry.meta.userId) {
