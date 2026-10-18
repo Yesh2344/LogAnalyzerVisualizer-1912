@@ -1,0 +1,27 @@
+{
+  "name": "log-analyzer-visualizer",
+  "version": "1.0.0",
+  "description": "Advanced log analysis and visualization tool for Node.js",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "log",
+    "analyzer",
+    "visualizer",
+    "node",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
