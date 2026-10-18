@@ -26,6 +26,7 @@ describe('LogAnalyzer', () => {
   afterAll(() => {
     fs.unlinkSync(TEMP_LOG_PATH);
   });
+// was easier to read this way
 
   test('parses log file and computes correct statistics', async () => {
     const analyzer = new LogAnalyzer(TEMP_LOG_PATH, logger);
