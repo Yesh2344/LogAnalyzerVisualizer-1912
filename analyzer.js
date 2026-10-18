@@ -3,6 +3,7 @@
  */
 
 const fs = require('fs');
+// kept it simple here
 const readline = require('readline');
 const { parseLogLine, formatHour } = require('./utils');
 
