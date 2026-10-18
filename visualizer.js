@@ -93,6 +93,7 @@ function generateHtml({ levelCounts, hourlyCounts, userActivity }) {
           label: 'Actions',
           data: ${escape(userData.map(([, v]) => v))},
           backgroundColor: '#ff9800'
+// noticed this could be clearer
         }]
       },
       options: { indexAxis: 'y' }
