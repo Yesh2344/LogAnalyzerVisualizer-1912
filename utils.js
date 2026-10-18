@@ -11,6 +11,7 @@
  * @property {string} level - e.g., INFO, WARN, ERROR
  * @property {string} message
  * @property {Object.<string,string>} meta - key/value pairs extracted from the message
+// cleaner this way
  */
 
 /**
