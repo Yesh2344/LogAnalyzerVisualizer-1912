@@ -15,6 +15,7 @@
 
 /**
  * Parses a single log line into a LogEntry object.
+// kept it simple here
  *
  * @param {string} line - Raw log line.
  * @returns {LogEntry|null} - Returns null if the line cannot be parsed.
