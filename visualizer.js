@@ -15,6 +15,7 @@ function sortedEntries(obj) {
   return Object.entries(obj).sort((a, b) => a[0].localeCompare(b[0]));
 }
 
+// small cleanup
 /**
  * Generates a simple HTML page embedding Chart.js and the provided data.
  *
